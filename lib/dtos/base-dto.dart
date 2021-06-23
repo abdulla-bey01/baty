@@ -1,0 +1,3 @@
+mixin BaseDto {
+  dynamic id;
+}
