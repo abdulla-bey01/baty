@@ -4,6 +4,5 @@ import 'package:turanv2/models/user-model.dart';
 class UserService {
   Future<UserModel?> getUser() async {
     return UserRepository().getUser();
-    //return _user;
   }
 }

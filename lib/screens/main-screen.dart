@@ -17,6 +17,7 @@ class MainScreen extends StatelessWidget {
             Text('This is main screen'),
             Text(user!.email ?? 'email does not exists'),
             Text(user!.name ?? 'name does not exists'),
+            Text(user!.title ?? 'title does not exists'),
           ],
         ),
       ),
